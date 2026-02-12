@@ -4,5 +4,11 @@
     "titleBar.activeBackground": "#12426C",
     "titleBar.activeForeground": "#F9FCFE"
   },
-  "dotnet.defaultSolution": "Minato.slnx"
+  "dotnet.defaultSolution": "Minato.slnx",
+  "files.exclude": {
+    "**/*.rpyc": true,
+    "**/*.rpa": true,
+    "**/*.rpymc": true,
+    "**/cache/": true
+  }
 }
