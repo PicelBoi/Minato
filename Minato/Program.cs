@@ -1,4 +1,4 @@
-using Microsoft.Extensions.Logging;
+using Minato.Endpoints;
 
 // Create builder.
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
@@ -24,19 +24,7 @@ app.UseHttpsRedirection();
 // Index message.
 app.MapGet("/", () => "Hello world, this is Minato version INDEV v1.0.0.");
 
-
-app.MapGet("/serverinfo", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+// Define all endpoints.
+Endpoints.MapProductRoutes(app);
 
 app.Run();
