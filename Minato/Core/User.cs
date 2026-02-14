@@ -10,7 +10,7 @@ public class User
 
     public string DisplayName { get; set; } = "Perry";
 
-    public string PublicKey { get; set; } = "";
+    public string PublicKey = "";
 
     public List<Role> Roles { get; set; } = new();
 }
