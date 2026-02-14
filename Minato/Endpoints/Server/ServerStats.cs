@@ -1,6 +1,6 @@
 namespace Minato.Endpoints.Server;
 
-using Minato.Core.Server;
+using Minato.Core;
 
 public static class ServerStatsEndpoint
 {

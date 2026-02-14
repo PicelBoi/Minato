@@ -1,7 +1,7 @@
 
 // Contains schemas for server info and stats.
 
-namespace Minato.Core.Server;
+namespace Minato.Core;
 
 // Schemas.
 
