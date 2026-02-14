@@ -1,6 +1,6 @@
 # Minato
 
-A server for the PicelBoi Chat Protocol, a experimental and in-development instant messaging protocol.
+A server for the PicelBoi Instant Messaging Protocol, a experimental and in-development instant messaging protocol.
 
 ## Name
 
