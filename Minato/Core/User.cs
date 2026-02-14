@@ -12,5 +12,9 @@ public class User
 
     public string PublicKey = "";
 
+    public string Pronouns { get; set; } = "";
+
+    public string Bio { get; set; } = "";
+
     public List<Role> Roles { get; set; } = new();
 }
