@@ -51,7 +51,7 @@ public enum Permissions : int
 
 }
 
-public class PermissionMethods
+public static class PermissionMethods
 {
     public static bool PermissionCheck(int[] psarray, int permtocheck)
     {
