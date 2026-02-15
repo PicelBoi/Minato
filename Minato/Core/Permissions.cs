@@ -1,5 +1,3 @@
-using Microsoft.OpenApi.MicrosoftExtensions;
-
 namespace Minato.Core;
 
 // Covers permissions.
